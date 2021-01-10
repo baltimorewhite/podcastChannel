@@ -1,0 +1,45 @@
+.section2{
+    height: 1300px;
+    background: rgb(0,0,254);
+    background: linear-gradient(180deg, rgba(0,0,255,1) 40%, rgba(0,0,163,1) 100%);
+    clip-path: polygon(0 4%, 100% 0%, 100% 97%, 0% 100%);
+    .divs2a{
+        padding-top: 20px;
+        .h1s2{
+            font-family: 'IBM Plex Sans', sans-serif;
+            font-size: 36px;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            line-height: 42px;
+            margin: 50px 15px;        
+        }
+    }
+    .divs2b{
+        display: block;
+        iframe{
+            margin: 2.5%;
+            height: 232px;
+            width: 95%;
+            border: none;
+        }
+    }
+
+}
+@media (min-width:1024px){
+    .section2{
+        height: 950px;
+        clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%);
+        .divs2a{
+            height: 10%;
+            .h1s2{
+                margin: 9% 10%;       
+            }
+        }
+        .divs2b{
+            margin: 5%;
+            iframe{
+                width: 44.6%;
+            }
+        }
+    }
+}

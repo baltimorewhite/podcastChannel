@@ -1,0 +1,51 @@
+.section6{
+    height: 341px;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 12%, 100% 0%, 100% 100%, 0% 100%);
+    .h1s6{
+        padding-top: 20%;
+        width: 90%;
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 36px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 42px;
+    }
+    .buttons6{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 12%;
+        .as6{
+            position: relative;
+            display: inline-block;
+            padding: 15px 50px;
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 16px;
+            color: #ffffff;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 22px;
+            text-decoration: none;
+            overflow: hidden;
+            transition: 0.2s;  
+        }
+    }
+}
+.as6:hover{
+    background: #00F3BB;
+    box-shadow: 0 0 10px#00F3BB, 0 0 40px #00F3BB, 0 0 80px #00F3BB;
+    transition: 0.4s
+}
+@media (min-width:1024px){
+    .section6{
+        clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0% 100%);
+        .h1s6{
+            padding-top: 10%;
+        }
+        .buttons6{
+            margin-top: 2%;
+        }
+    }   
+}

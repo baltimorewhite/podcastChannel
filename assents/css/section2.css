@@ -1,0 +1,36 @@
+.section2 {
+  height: 1300px;
+  background: #0000fe;
+  background: linear-gradient(180deg, blue 40%, #0000a3 100%);
+  clip-path: polygon(0 4%, 100% 0%, 100% 97%, 0% 100%); }
+  .section2 .divs2a {
+    padding-top: 20px; }
+    .section2 .divs2a .h1s2 {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 36px;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      line-height: 42px;
+      margin: 50px 15px; }
+  .section2 .divs2b {
+    display: block; }
+    .section2 .divs2b iframe {
+      margin: 2.5%;
+      height: 232px;
+      width: 95%;
+      border: none; }
+
+@media (min-width: 1024px) {
+  .section2 {
+    height: 950px;
+    clip-path: polygon(0 10%, 100% 0%, 100% 90%, 0% 100%); }
+    .section2 .divs2a {
+      height: 10%; }
+      .section2 .divs2a .h1s2 {
+        margin: 9% 10%; }
+    .section2 .divs2b {
+      margin: 5%; }
+      .section2 .divs2b iframe {
+        width: 44.6%; } }
+
+/*# sourceMappingURL=section2.css.map */

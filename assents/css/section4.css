@@ -1,0 +1,29 @@
+.section4 {
+  background-color: white; }
+  .section4 .h1s4 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 42px;
+    margin: 16px 30px;
+    width: 60%; }
+  .section4 .figures4 img {
+    max-width: 100%; }
+
+@media (min-width: 1024px) {
+  .section4 {
+    background-color: white; }
+    .section4 .h1s4 {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 48px;
+      color: #060A24;
+      letter-spacing: 0;
+      line-height: 42px;
+      width: 60%;
+      margin-left: 7%;
+      margin-bottom: 4%; }
+    .section4 .figures4 img {
+      width: 33%; } }
+
+/*# sourceMappingURL=section4.css.map */

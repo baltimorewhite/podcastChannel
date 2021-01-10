@@ -1,0 +1,118 @@
+footer {
+  height: 120px; }
+  footer h5 {
+    margin-top: 10%;
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    color: #060A24;
+    letter-spacing: 0;
+    line-height: 22px; }
+  footer .social-btns {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 2%; }
+
+.social-btns .btn, .social-btns .btn .fa, .social-btns .btn:before {
+  transition: all .35s;
+  transition-timing-function: cubic-bezier(0.31, -0.105, 0.43, 1.59); }
+
+.social-btns .btn:before {
+  top: 90%;
+  left: -110%; }
+
+.social-btns .btn .fa {
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5); }
+
+.social-btns .btn.facebook:before {
+  background-color: #3b5998; }
+
+.social-btns .btn.facebook .fa {
+  color: #3b5998; }
+
+.social-btns .btn.twitter:before {
+  background-color: #3cf; }
+
+.social-btns .btn.twitter .fa {
+  color: #3cf; }
+
+.social-btns .btn.spotify:before {
+  background-color: #35d369; }
+
+.social-btns .btn.spotify .fa {
+  color: #35d369; }
+
+.social-btns .btn.instagram:before {
+  background-color: #c13584; }
+
+.social-btns .btn.instagram .fa {
+  color: #c13584; }
+
+.social-btns .btn.telegram:before {
+  background-color: #5db2ee; }
+
+.social-btns .btn.telegram .fa {
+  color: #5db2ee; }
+
+.social-btns .btn:focus:before, .social-btns .btn:hover:before {
+  top: -10%;
+  left: -10%; }
+
+.social-btns .btn:focus .fa, .social-btns .btn:hover .fa {
+  color: #fff;
+  -webkit-transform: scale(1);
+  transform: scale(1); }
+
+.social-btns .btn {
+  display: inline-block;
+  background-color: #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 50px;
+  margin: 10px 10px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 28%;
+  box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+  opacity: .99; }
+
+.social-btns .btn:before {
+  content: '';
+  width: 120%;
+  height: 120%;
+  position: absolute;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+.social-btns .btn .fa {
+  font-size: 40px;
+  vertical-align: middle; }
+
+@media (min-width: 1024px) {
+  footer {
+    display: flex;
+    justify-content: space-around;
+    height: 90px; }
+    footer h5 {
+      font-size: 16px;
+      margin-top: 36px; }
+    footer .social-btns .btn {
+      display: inline-block;
+      background-color: #fff;
+      width: 50px;
+      height: 50px;
+      line-height: 46px;
+      margin: 20px 10px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      border-radius: 30%;
+      box-shadow: 0 5px 15px -5px rgba(0, 0, 0, 0.1);
+      opacity: .99; }
+    footer .social-btns .btn .fa {
+      font-size: 40px;
+      vertical-align: middle; } }
+
+/*# sourceMappingURL=footer.css.map */

@@ -1,0 +1,62 @@
+.section3 {
+  margin: 5%; }
+  .section3 .figures3 img {
+    position: relative;
+    max-width: 100%;
+    margin-top: -110px; }
+  .section3 .divs3 {
+    height: auto; }
+    .section3 .divs3 .h1s3 {
+      width: 60%;
+      margin: 16px;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 36px;
+      color: #060A24;
+      letter-spacing: 0;
+      line-height: 42px; }
+    .section3 .divs3 .ps3a, .section3 .divs3 .ps3b {
+      margin: 16px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 14px;
+      color: #060A24;
+      letter-spacing: 0;
+      line-height: 22px; }
+
+@media (min-width: 1024px) {
+  .section3 .figures3 img {
+    position: absolute;
+    max-width: 45%;
+    margin-top: -200px;
+    padding-left: 5%; }
+  .section3 .divs3 {
+    top: -50px; }
+    .section3 .divs3 .h1s3 {
+      width: 60%;
+      margin-left: 50%;
+      font-size: 48px; }
+    .section3 .divs3 .ps3a, .section3 .divs3 .ps3b {
+      width: 50%;
+      margin-left: 50%;
+      font-size: 16px; }
+    .section3 .divs3 .ps3b {
+      margin-bottom: 32%; } }
+@media (min-width: 1440px) {
+  .section3 .figures3 img {
+    position: absolute;
+    max-width: 35%;
+    margin-top: -230px;
+    padding-left: 5%; }
+  .section3 .divs3 {
+    top: -50px; }
+    .section3 .divs3 .h1s3 {
+      width: 60%;
+      margin-left: 50%;
+      font-size: 48px; }
+    .section3 .divs3 .ps3a, .section3 .divs3 .ps3b {
+      width: 45%;
+      margin-left: 50%;
+      font-size: 16px; }
+    .section3 .divs3 .ps3b {
+      margin-bottom: 30%; } }
+
+/*# sourceMappingURL=section3.css.map */
